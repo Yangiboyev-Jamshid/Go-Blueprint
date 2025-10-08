@@ -1,3 +1,6 @@
-envVars:
-  - key: PORT
-    value: 8080
+services:
+  - type: web
+    name: go-blueprint
+    env: docker
+    plan: free
+    autoDeploy: true
