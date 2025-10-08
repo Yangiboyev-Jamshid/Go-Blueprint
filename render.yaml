@@ -1,0 +1,3 @@
+envVars:
+  - key: PORT
+    value: 8080
